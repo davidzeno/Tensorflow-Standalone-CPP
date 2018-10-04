@@ -106,8 +106,8 @@ int main() {
 
     // Expect outputs[0] == [1734.17; 918.09]
     //LOG(INFO) << outputs[0].matrix<float>();
-    cout << outputs[0].matrix<float>() << endl;
-
+    cout << "OUT {" << endl << " " << outputs[0].matrix<float>() << endl << "}"<< endl;
+    
     return 0;
 }
 ```
