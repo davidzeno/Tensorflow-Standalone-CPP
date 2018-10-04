@@ -3,6 +3,9 @@ Follow this to compile Tensorflow C++ API and build a standalone C++ Tensorflow 
 - Tensorflow  version: 1.11.0-rc1
 - OS: Linux (Ubuntu 14.04.5)
 
+## Powered by
+[![N|Solid](http://www.davidzeno.net/tf_logo.png)](https://www.tensorflow.org/)
+
 ## Clone tensorflow repo:
 ```console
 git clone https://github.com/tensorflow/tensorflow.git
