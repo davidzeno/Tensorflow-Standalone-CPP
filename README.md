@@ -114,6 +114,19 @@ int main() {
     return 0;
 }
 ```
+## Console output
+```console
+$ ./SampleNeuralNet 
+Tensorflow version: 1.11.0-rc1
+NeuralState = [10.1 20.2; -30.3 40.4]
+InputVector = [50.5 60.6]
+OutputVector = NeuralState * InputVector ^ TransposeB
+OUT {
+ 1734.17
+ 918.09
+}
+```
+
 ## Create a tar.gz from lib/ and include/
 ```console
 tar -zcvf tensorflow-c++-libs-includes-`date +"%m-%d-%y"`.tar.gz lib/ include/
