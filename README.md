@@ -1,7 +1,7 @@
 # Compiling Tensorflow C++ API and Building a Standalone C++ Tensorflow Application
 Follow this to compile Tensorflow C++ API and build a standalone C++ Tensorflow application.
-<br>tensorflow  version: 1.11.0-rc1
-<br>OS: Linux (Ubuntu 14.04.5)
+- Tensorflow  version: 1.11.0-rc1
+- OS: Linux (Ubuntu 14.04.5)
 
 ## Clone tensorflow repo:
 ```console
@@ -115,4 +115,5 @@ int main() {
 ```console
 tar -zcvf tensorflow-c++-libs-includes-`date +"%m-%d-%y"`.tar.gz lib/ include/
 ```
-
+## Download it 
+<a href="https://github.com/davidzeno/Compile-Tensorflow-CPP-API/releases/download/v1.0/tensorflow-c++-libs-includes-10-04-18.tar.gz">tensorflow-c++-libs-includes-10-04-18.tar.gz</a>
